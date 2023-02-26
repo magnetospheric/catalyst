@@ -1,0 +1,83 @@
+/*
+
+
+Theme Name: Ashe Pro Child
+
+Theme URI: https://github.com/magnetospheric
+
+Description: Ashe Pro Child Theme
+
+Author: Magnetospheric
+
+Author URI: https://github.com/magnetospheric
+
+Template: ashe-pro-premium
+
+Version: 1.0.0
+
+License: GNU General Public License v2 or later
+
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+Tags: one-column, responsive-layout
+
+Text Domain: ashe-child
+
+*/
+
+
+.wp-block-media-text {
+    margin: 1em 0;
+}
+
+/*  rgba(240, 239, 238, 0.3) */
+
+.logo-img img {
+  -webkit-filter: drop-shadow(1px 1px 0 rgba(0, 0, 0, 0.1))
+                    drop-shadow(-1px -1px 0 rgba(0, 0, 0, 0.1));
+    filter: drop-shadow(1px 1px 0 rgba(0, 0, 0, 0.1))
+            drop-shadow(-1px -1px 0 rgba(0, 0, 0, 0.1));
+}
+
+.page-content {
+    background-color: #fcfbfa;
+}
+
+#top-bar > div, #main-nav > div, #featured-links, .main-content, .page-footer-inner, .featured-slider-area.boxed-wrapper {
+  padding-left: 0px!important;
+  padding-right: 0px!important;
+}
+.main-content {
+    padding-top: 0px!important;
+    padding-bottom: 0px!important;
+}
+
+.blog-grid {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+
+
+@media screen and ( max-width: 768px ) {
+
+  .slider-item-bg,
+  #featured-slider.boxed-wrapper .slider-item-bg {
+    height: 360px!important;
+  }
+
+  .slider-info .slider-content,
+  .slider-info .slider-read-more {
+    display: block !important;
+  }
+
+}
+
+/* Viewport Size 480px */
+@media screen and ( max-width: 480px ) {
+
+  .slider-item-bg,
+  #featured-slider.boxed-wrapper .slider-item-bg {
+    height: 260px!important;
+  }
+
+}
